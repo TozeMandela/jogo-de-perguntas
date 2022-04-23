@@ -52,13 +52,14 @@
                                 if(app().respCerta(objEscolhido[0].respCerta,a)){
                                     //this.style.backgroundColor = 'rgb(100, 255, 170)';
                                     this.classList.add('certas');
+                                    console.log($divA.innerHTML.split(' ').join('').replace(/>(\w{2,}|\d{2,}-?\w+)/g,'>'))
                                     setTimeout(() =>{
                                     this.classList.remove('certas');
                                     $ponto.value = +$ponto.value+10;
-                                    $divA.innerHTML = $divA.innerHTML.replace(/\s\w{2,}/g,'');
-                                    $divB.innerHTML = $divB.innerHTML.replace(/\s\w{2,}/g,'');
-                                    $divC.innerHTML = $divC.innerHTML.replace(/\s\w{2,}/g,'');
-                                    $divD.innerHTML = $divD.innerHTML.replace(/\s\w{2,}/g,'');
+                                    $divA.innerHTML = $divA.innerHTML.split(' ').join('').replace(/>(\w{2,}|\d{2,}-?\w+)/g,'>');
+                                    $divB.innerHTML = $divB.innerHTML.split(' ').join('').replace(/>(\w{2,}|\d{2,}-?\w+)/g,'>');
+                                    $divC.innerHTML = $divC.innerHTML.split(' ').join('').replace(/>(\w{2,}|\d{2,}-?\w+)/g,'>');
+                                    $divD.innerHTML = $divD.innerHTML.split(' ').join('').replace(/>(\w{2,}|\d{2,}-?\w+)/g,'>');
                                        app().inicio(); 
                                     }, 1000);
                                 }else{
