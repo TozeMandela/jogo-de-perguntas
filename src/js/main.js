@@ -50,8 +50,10 @@
                                 console.log(objEscolhido[0].respCerta, a);
 
                                 if(app().respCerta(objEscolhido[0].respCerta,a)){
-                                    this.style.backgroundColor = 'rgb(100, 255, 170)';
-                                    setTimeout(() => {
+                                    //this.style.backgroundColor = 'rgb(100, 255, 170)';
+                                    this.classList.add('certas');
+                                    setTimeout(() =>{
+                                    this.classList.remove('certas');
                                     $ponto.value = +$ponto.value+10;
                                     $divA.innerHTML = $divA.innerHTML.replace(/\s\w{2,}/g,'');
                                     $divB.innerHTML = $divB.innerHTML.replace(/\s\w{2,}/g,'');
