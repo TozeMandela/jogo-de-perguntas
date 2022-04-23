@@ -1,0 +1,52 @@
+[
+    {
+    "pergunta":"Que cor resulta da combinação entre amarelo e azul?",
+    "respostasE" :["lilas", "laranja", "preto","Verde"],
+    "respCerta":" Verde"   
+    },
+    {
+    "pergunta":"qual o resultado da soma entre 5 e 7",
+    "respostasE" :[20,13,18,12 ],
+    "respCerta":" 12"   
+    },
+    {
+    "pergunta":"como o programador é visto na sociedade?",
+    "respostasE" :["como um cara qualquer","como um semi-deus","alguém que precisa urgente de um psicologo","como um aldrabão"],
+    "respCerta":" como um semi-deus"   
+    },
+    {
+    "pergunta":"com que linguagem de programação achas que este jogo foi criado",
+    "respostasE" :["JavaScript","PhP","Python","c#"],
+    "respCerta":" JavaScript"   
+    },
+    {
+    "pergunta":"quantos anos achas que o criador deste jogo têm",
+    "respostasE" :["22","15","25","18"],
+    "respCerta":" 22"   
+    },
+    {
+    "pergunta":"complete a chara dizendo que frase vem a seguir para que ela seja motivacional: se fosse fácil",
+    "respostasE" :["qualquer um faria","tudo seria fantastico","o homem estaria vivendo como se estivesse no paraiso","a gente ñ faria"],
+    "respCerta":" qualquer um faria"   
+    },
+    {
+    "pergunta":"como se chamava a segunda rapariga com o ser e o sorriso incrivel que o criador deste jogo conheceu?",
+    "respostasE" :["Rosalina Mambo Ramos","Wazeia josé","Tamara dos santos","Maria Silvia Mauricio Pimenta"],
+    "respCerta":" Rosalina Mambo Ramos"   
+    },
+    {
+    "pergunta":"",
+    "respostasE" :["","","",""],
+    "respCerta":""   
+    },
+    {
+    "pergunta":"",
+    "respostasE" :["","","",""],
+    "respCerta":""   
+    },
+    {
+    "pergunta":"",
+    "respostasE" :["","","",""],
+    "respCerta":""   
+    }
+]

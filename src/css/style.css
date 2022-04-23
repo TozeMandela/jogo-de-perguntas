@@ -1,0 +1,86 @@
+@charset 'UTF-8';
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(51, 48, 43);
+}
+.cenario{
+    max-width: 550px;
+    min-width: 350px;
+    height: 600px;
+    background-color: rgb(196, 238, 255);
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px 1px 10px 1px;
+    padding: 4px;
+}
+h1{
+    text-align: center;
+    
+      
+}
+.perguntas{
+    text-align: center;
+    text-transform: uppercase;
+    text-align: justify;
+    padding: 10px;
+}
+div{
+    background-color: aliceblue;
+    width: 450px;
+    height: 10px;
+    position: relative;
+    left: 25px;
+    padding: 20px;
+    margin: 8px;
+    display: block;
+    pointer-events: all;
+}
+h2{
+   display: inline;
+}
+h3{
+  
+    display: block;
+    position: relative;
+    float: right;
+    left: 0px;
+    top: 5px;
+    
+}
+input{
+    list-style: none;
+    border-style: none;
+    margin-left: 10px;
+    background-color: rgb(196, 238, 255);
+    font-size: 14pt;
+}
+h3>input{
+  width: 40px;
+  text-align: center;
+}
+label{
+    font-size: 14pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.certas{
+    background-color: rgb(100, 255, 170);
+}
+#erradas{
+    background-color: rgb(255, 17, 17);
+}
+div>span{
+    background-color: blue;
+    color: white;
+    height: 10px;
+    margin-left: -20px;
+    margin-right: 10px;
+    padding: 20px 20px 13px 20px;
+}
