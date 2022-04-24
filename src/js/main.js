@@ -71,7 +71,8 @@
 
             limpaResposta: function limpaResposta(div){
             return div.innerHTML.split(' ').join('').replace(/(<\w+>\w<\/\w+>)([!-û\d]{2,})/g,(r,c1,c2)=>{
-                c2 = '';
+                console.log(r,'\n o c1',c1,'\n o c2',c2 );
+                return c1+'';
             });
             },
 
